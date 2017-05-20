@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Demo</title>
+    <link rel="icon"
+          type="image/png"
+          href="./assets/images/site-logo.jpg">
+
+    <link href="assets/js/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="jumbotron">
+    <div class="row row-header">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+            <img src="assets/images/site-logo.png" align="left">
+        </div>
+        <div class="container-fluid">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                <p style="color:#000000; font-size: 40px; font-weight: bolder; margin-right: 222px;"
+                   align="center">Image Search Demo</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<ng-view></ng-view>
+
+<footer class="row-footer navbar-fixed-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p align=center >B Copyrigths 2017</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.cookie.min.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.form.js"></script>
+
+<script src="module/demo_module.js"></script>
+<script src="service/route_service.js"></script>
+<script src="service/http_service.js"></script>
+<script src="service/directive_service.js"></script>
+<script src="service/factory_service.js"></script>
+<script src="service/filter_service.js"></script>
+
+
+<script src="controller/index_controllers.js"></script>
+<script src="controller/search_controller.js"></script>
+<script src="controller/picDetail_controller.js"></script>
+
+
+</body>
+</html>
